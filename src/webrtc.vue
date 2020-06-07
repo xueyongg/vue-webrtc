@@ -75,6 +75,7 @@ export default {
     this.rtcmConnection.autoCreateMediaElement = false;
     this.rtcmConnection.enableLogs = this.enableLogs;
     this.rtcmConnection.autoTranslateText = this.autoTranslateText;
+    this.rtcmConnection.language = this.autoTranslateLanguage;
     this.rtcmConnection.session = {
       audio: this.enableAudio,
       video: this.enableVideo,
